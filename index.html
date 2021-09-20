@@ -5,6 +5,27 @@
     <title>Lesson Four: Box Model Activity</title>
     <style>
       /*Add CSS style here using the cats class*/
+      * {box-sizing: border-box;}
+      .cats {
+        height: 6rem;
+        background-color: pink;
+        padding: 1rem;
+        border: 3px dashed green;
+        margin-bottom: 1rem;
+        margin-top: 1.5rem;
+        </ margin: 1.5rem 0 1rem; (top - left - right) />
+      }
+      .dogs {
+        height: 6rem;
+        background-color: lightblue;
+        padding: 1rem;
+        border: 3px dashed blue;
+        margin-bottom: 1rem;
+      }
+      .rabbits {
+        height: 11rem;
+        background-color: aqua;
+      }
      </style>
   </head>
   <body>
@@ -20,6 +41,15 @@
           <a href="https://www.youtube.com/watch?reload=9&v=J11uu8L8FTY">Video evidence!</a>
           <p>Big cats like refrigerator boxes.</p>
           <p>House cats like shoe boxes.</p>
+        </article>
+        <!--TODO: create an article here, style it with height and background color-->
+        <article class="dogs">
+          <a href="https://www.youtube.com/watch?v=1HygThMLzGs">Video of funny dogs!</a>
+          <p>Dogs activing crazy.</p>
+          <p>Big dogs trying to get in spaces too small for them.</p>
+        </article>
+        <article class="rabbits">
+
         </article>
       </section>
 
