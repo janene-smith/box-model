@@ -7,24 +7,36 @@
       /*Add CSS style here using the cats class*/
       * {box-sizing: border-box;}
       .cats {
-        height: 6rem;
+        height: 15rem;
+        overflow: visible;
         background-color: pink;
-        padding: 1rem;
-        border: 3px dashed green;
-        margin-bottom: 1rem;
-        margin-top: 1.5rem;
-        </ margin: 1.5rem 0 1rem; (top - left - right) />
+        padding: 5rem;
+        border: 5px dashed green;
+        /*margin-bottom: 1rem;
+        margin-top: 1.5rem;*/
+        margin: 1.5rem 0 1rem 0;
+        position:absolute;
+
+
+
       }
       .dogs {
-        height: 6rem;
+        height: 15rem;
+        overflow: visible;
         background-color: lightblue;
         padding: 1rem;
         border: 3px dashed blue;
         margin-bottom: 1rem;
+        position: relative ;
+        top: 1rem;
+        left: 25rem;
+        float:left;
       }
       .rabbits {
         height: 11rem;
         background-color: aqua;
+        position:static;
+
       }
      </style>
   </head>
@@ -45,7 +57,7 @@
         <!--TODO: create an article here, style it with height and background color-->
         <article class="dogs">
           <a href="https://www.youtube.com/watch?v=1HygThMLzGs">Video of funny dogs!</a>
-          <p>Dogs activing crazy.</p>
+          <p>Dogs acting crazy.</p>
           <p>Big dogs trying to get in spaces too small for them.</p>
         </article>
         <article class="rabbits">
